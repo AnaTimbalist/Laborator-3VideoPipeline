@@ -1,7 +1,10 @@
 --Pipeline Video cu Kafka, S3 și FFmpeg--
+
+
 Acest proiect implementează o pipeline video folosind Kafka pentru procesare în timp real, S3 pentru stocare și FFmpeg pentru conversia fișierelor video în multiple formate. Folosind TypeScript și Node.js, această pipeline permite descărcarea, procesarea și salvarea fișierelor video în diferite formate.
 
 --Descriere
+
 Scopul acestui proiect este de a crea o pipeline video care:
 
 Descarcă fișiere video folosind un tool precum yt-dlp.
@@ -15,11 +18,14 @@ Kafka: Sistem de mesagerie pentru procesarea paralelă a fișierelor.
 S3: Serviciu de stocare pentru fișierele video.
 FFmpeg: Un tool de procesare video folosit pentru conversia fișierelor.
 yt-dlp: Un tool pentru descărcarea video-urilor de pe diverse platforme.
-Instalare
+
+--Instalare
+
+
 Pentru a rula acest proiect pe mașina ta locală, urmează acești pași:
 
 1. Clonează Repozitoriul
-Clonează repozitoriul în directorul dorit:
+Clonează repozitoriul în directorul dorit:https://github.com/AnaTimbalist/Laborator-3VideoPipeline.git
 
 bash
 Copiază
